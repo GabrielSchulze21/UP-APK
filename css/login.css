@@ -1,0 +1,105 @@
+/* Estilos Gerais para a Tela de Cadastro */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-label {
+    font-size: 16px;
+    color: #626060;
+    border-bottom: #626060;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #0021FF;
+    outline: none;
+}
+
+.access-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #0021FF;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.signup-button:hover {
+    background-color: #001BB5;
+}
+
+.already-account {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.login-link {
+    color: #0021FF;
+    text-decoration: underline;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .welcome-text {
+        font-size: 20px;
+    }
+
+    .signup-button {
+        font-size: 16px;
+    }
+
+    .already-account {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Meu Projeto</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="welcome-text">Seja Bem Vindo(A)!</div>
+            <img class="profile-img" src="images/Logo.png" alt="Profile Image"/>
+            <div class="login-container">
+                <div class="welcome-text">Entrar!</div>
+                
+                <!-- Grupo de entrada de email -->
+                <div class="input-group">
+                    <img src="images/@.svg" alt="email-icon" class="input-icon"> 
+                    <label for="email" class="input-label">Email:</label>
+                    <input type="email" id="email" name="email" class="input-field" placeholder="Digite seu email" required>
+                </div>
+                
+                <!-- Grupo de entrada de senha -->
+                <div class="input-group">
+                    <img src="images/cadeado.svg" alt="password-icon" class="input-icon">
+                    <label for="password" class="input-label">Senha:</label>
+                    <input type="password" id="password" name="password" class="input-field" placeholder="Digite sua senha" required>
+                </div>
+                
+                <!-- Botão acessar -->
+                <button id="login-button" class="access-button">Acessar</button>
+                <div class="container"> <center> Ou </center></div>
+                
+                <!-- Botão entrar com o Google -->
+                <button id="login-button" class="google-login">
+                    <img src="images/icone google.svg" alt="google-icon" class="google-icon"> 
+                    <span>Entrar com o Google</span>
+                </button>
+                
+                <!-- Texto para cadastro -->
+                <div class="container">
+                   <center> Ou faça seu <a href="login.html" class="cadastro-link">cadastro!</a> </center>
+                    <div class="underline"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
